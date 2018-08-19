@@ -1,3 +1,9 @@
 [submodule "modules/aws/vpc"]
 	path = modules/aws/vpc
 	url = https://github.com/terraform-aws-modules/terraform-aws-vpc.git
+[submodule "modules/aws/ec2"]
+	path = modules/aws/ec2
+	url = https://github.com/terraform-aws-modules/terraform-aws-ec2-instance.git
+[submodule "modules/aws/sg"]
+	path = modules/aws/sg
+	url = https://github.com/terraform-aws-modules/terraform-aws-security-group.git
